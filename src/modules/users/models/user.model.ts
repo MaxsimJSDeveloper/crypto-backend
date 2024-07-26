@@ -6,7 +6,7 @@ export class User extends Model {
   firstName: string;
 
   @Column
-  userName: string;
+  userName: string; // Повертаємося до userName
 
   @Column
   email: string;

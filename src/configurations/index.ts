@@ -4,5 +4,5 @@ export default () => ({
   db_name: process.env.DB_NAME || 'lesson',
   db_user: process.env.DB_USER || 'lesson',
   db_password: process.env.DB_PASSWORD || 'lesson',
-  db_host: process.env.DB_HOST || 'localhost', // или IP-адрес вашего хоста PostgreSQL
+  db_host: process.env.DB_HOST || 'localhost',
 });

@@ -5,4 +5,6 @@ export default () => ({
   db_user: process.env.DB_USER || 'lesson',
   db_password: process.env.DB_PASSWORD || 'lesson',
   db_host: process.env.DB_HOST || 'localhost',
+  secret_jwt: process.env.SECRET,
+  expire_jwt: process.env.EXPIRE_JWT,
 });

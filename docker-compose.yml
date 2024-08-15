@@ -16,7 +16,7 @@ services:
     environment:
       - PORT=3000
       - DB_PORT=5432
-      - DB_HOST=localhost # или IP-адрес вашего хоста PostgreSQL
+      - DB_HOST=localhost
       - DB_USER=postgres
       - DB_PASSWORD=4444
       - DB_NAME=lesson
